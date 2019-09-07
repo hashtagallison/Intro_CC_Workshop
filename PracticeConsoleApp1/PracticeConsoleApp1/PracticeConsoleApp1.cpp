@@ -3,10 +3,55 @@
 
 #include "pch.h"
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	//hashtagallison 09/07/2019
+	//These are my notes from a C++ tutorial that may be found at https://www.sololearn.com/Play/CPlusPlus/
+
+	//	cout prints the line 
+	// "\n" is a newline break that is defined within the string (called an escape character)
+    cout << "Hello World!\n\n";
+
+	//endl is a line break outside of the string
+	cout << "This " << "is " << "awesome!" << endl << endl;
+
+	cout << "Hello \n world! \n I \n love \n programming! \n\n";
+
+	//this is a single line comment, you can also use this to block out text.
+
+	/*
+		This is a multi-line comment
+		You can use this for header documentation or large blocks of text, etc.
+	*/
+
+	int myVariable1 = 10;
+	cout << myVariable1 << endl << endl << endl;
+
+	//define two variables at once that are int type
+	int a, b;
+
+	cout << "Enter the first number to sum and press enter:\n";
+	cin >> a;
+	cout << "Enter the second number to sum and press enter:\n";
+	cin >> b;
+
+	int sum = a + b;
+	
+	cout << "\n\n" << a << endl << "+ \n" << b << "\n---\n";
+	cout << sum << endl << endl << endl;
+
+
+
+
+
+
+
+
+
+	//return ends the function
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
