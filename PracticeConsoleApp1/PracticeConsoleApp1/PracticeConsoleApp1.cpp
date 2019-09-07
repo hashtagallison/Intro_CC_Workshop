@@ -10,6 +10,11 @@ int main()
 	//hashtagallison 09/07/2019
 	//These are my notes from a C++ tutorial that may be found at https://www.sololearn.com/Play/CPlusPlus/
 
+	/*
+	MODULE 1 - BASIC CONCEPTS
+	*/
+
+
 	//	cout prints the line 
 	// "\n" is a newline break that is defined within the string (called an escape character)
     cout << "Hello World!\n\n";
@@ -32,15 +37,44 @@ int main()
 	//define two variables at once that are int type
 	int a, b;
 
-	cout << "Enter the first number to sum and press enter:\n";
+	a = 10;
+	b = 20;
+
+	// Uncomment below code for user-submitted numbers
+	/*cout << "Enter the first number to sum and press enter:\n";
 	cin >> a;
 	cout << "Enter the second number to sum and press enter:\n";
-	cin >> b;
+	cin >> b;*/
 
 	int sum = a + b;
 	
 	cout << "\n\n" << a << endl << "+ \n" << b << "\n---\n";
 	cout << sum << endl << endl << endl;
+
+	int x = 10;
+	cout << x << endl;
+	x += 4;
+	cout << x << endl;
+	x -= 5;
+	cout << x << endl;
+	
+	//postfix evaluates the expression and then performs the incrementing/decrenenting
+	x++;
+	cout << x << endl;
+
+	//prefix increments/decrements the value, and then proceeds with the expression
+	--x;
+	cout << x << endl << endl;
+
+
+
+
+	/*
+	MODULE 2 - CONDITIONALS AND LOOPS
+	*/
+
+	
+
 
 
 
@@ -54,6 +88,7 @@ int main()
 	return 0;
 }
 
+// Below are tips from Visual Studio for new users:
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
